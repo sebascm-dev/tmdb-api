@@ -33,7 +33,9 @@
 .movies-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    align-items: normal;
 }
 
 .movies-card {
@@ -74,6 +76,7 @@
     justify-content: center;
     gap: 2rem;
     margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 .pagination-button {

@@ -65,7 +65,7 @@ const PeliculasPopulares = () => {
                 />
             </div>
             <section className="movies-container">
-                {movies.slice(0, 12).map((movie) => (
+                {movies.slice(0, 20).map((movie) => (
                     <div
                         key={movie.id}
                         className="movies-card"
