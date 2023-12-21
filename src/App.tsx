@@ -3,12 +3,12 @@ import PelicilasPopulares from './components/peliculasPopulares/PeliculasPopular
 
 function App() {
   return (
-    <>
+    <main>
       <h1 className='header-title'>SIMPLE - TMDB - API</h1>
 
       <PelicilasPopulares />
 
-    </>
+    </main>
   )
 }
 
